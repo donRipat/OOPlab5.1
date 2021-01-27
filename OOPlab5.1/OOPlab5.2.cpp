@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -183,7 +183,7 @@ int main()
 			a[i] = new Cat();
 		else if (r == 2)
 			a[i] = new Dog();
-		else 
+		else
 			a[i] = new WildDog();
 	}
 	cout << "\n\n";
@@ -193,7 +193,7 @@ int main()
 	{
 		if (a[i]->Class_name() == "Cat")
 		{
-			cout << "a[" << i << "] is a " << a[i]->Class_name() 
+			cout << "a[" << i << "] is a " << a[i]->Class_name()
 				<< '\n';
 		}
 		else if (a[i]->Class_name() == "Dog")
